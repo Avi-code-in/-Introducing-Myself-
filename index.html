@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Avirup Purkait | Developer & AI Enthusiast</title>
+
+  <meta name="description"
+        content="Personal profile of Avirup Purkait — student, developer, AI/ML enthusiast and app creator from West Bengal, India.">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0b1020;
+      color: #f5f7ff;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 70px 20px;
+      text-align: center;
+      background:
+        radial-gradient(circle at top, #263b78, #0b1020 65%);
+    }
+
+    .profile {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      margin: auto;
+      background: linear-gradient(135deg, #6c63ff, #00d4ff);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 42px;
+      font-weight: bold;
+      box-shadow: 0 0 35px rgba(80,150,255,.35);
+    }
+
+    h1 {
+      margin-top: 20px;
+      font-size: 42px;
+    }
+
+    .subtitle {
+      color: #aeb9d6;
+      font-size: 18px;
+      margin-top: 8px;
+    }
+
+    .location {
+      margin-top: 15px;
+      color: #8ed8ff;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: rgba(11,16,32,.94);
+      border-bottom: 1px solid #26304c;
+      padding: 14px;
+      text-align: center;
+      backdrop-filter: blur(10px);
+    }
+
+    nav a {
+      color: #dce5ff;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      color: #65d9ff;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 45px 20px;
+    }
+
+    section {
+      margin-bottom: 55px;
+    }
+
+    h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #70d9ff;
+    }
+
+    .about {
+      font-size: 17px;
+      color: #c9d2e9;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #141b31;
+      border: 1px solid #293451;
+      border-radius: 16px;
+      padding: 22px;
+      transition: .25s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      border-color: #55cfff;
+      box-shadow: 0 10px 30px rgba(0,0,0,.25);
+    }
+
+    .card h3 {
+      color: white;
+      margin-bottom: 8px;
+    }
+
+    .card p {
+      color: #aeb9d6;
+      font-size: 15px;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+      margin-top: 18px;
+    }
+
+    .tag {
+      background: #202a49;
+      border: 1px solid #344367;
+      padding: 7px 12px;
+      border-radius: 20px;
+      font-size: 13px;
+      color: #ccecff;
+    }
+
+    .project-icon {
+      font-size: 35px;
+      margin-bottom: 10px;
+    }
+
+    .timeline {
+      border-left: 2px solid #3d5b9d;
+      padding-left: 22px;
+    }
+
+    .timeline-item {
+      margin-bottom: 25px;
+      position: relative;
+    }
+
+    .timeline-item::before {
+      content: "";
+      position: absolute;
+      left: -30px;
+      top: 7px;
+      width: 13px;
+      height: 13px;
+      background: #5ed8ff;
+      border-radius: 50%;
+    }
+
+    .goal-box {
+      background: linear-gradient(135deg, #17264d, #131a30);
+      border: 1px solid #36558e;
+      padding: 25px;
+      border-radius: 18px;
+    }
+
+    .goal-box ul {
+      padding-left: 20px;
+      color: #c9d2e9;
+    }
+
+    .goal-box li {
+      margin: 8px 0;
+    }
+
+    .contact {
+      text-align: center;
+      background: #121a30;
+      border-radius: 20px;
+      padding: 30px;
+      border: 1px solid #293451;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      border-top: 1px solid #252e47;
+      color: #7f8aa5;
+      font-size: 14px;
+    }
+
+    .highlight {
+      color: #69dcff;
+      font-weight: bold;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 32px;
+      }
+
+      nav a {
+        margin: 0 5px;
+        font-size: 12px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="profile">AP</div>
+
+  <h1>Avirup Purkait</h1>
+
+  <div class="subtitle">
+    Student • Developer • AI/ML Enthusiast • App Creator
+  </div>
+
+  <div class="location">
+    📍 Lakshmikantapur, Kolkata, West Bengal, India
+  </div>
+</header>
+
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#ai">AI Journey</a>
+  <a href="#goals">Goals</a>
+</nav>
+
+
+<main class="container">
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>About Me</h2>
+
+    <p class="about">
+      Hi! I'm <span class="highlight">Avirup Purkait</span>,
+      a student and aspiring technology developer from West Bengal, India.
+      I am interested in software development, artificial intelligence,
+      machine learning, robotics and Android app development.
+    </p>
+
+    <br>
+
+    <p class="about">
+      I enjoy building practical applications and experimenting with
+      different technologies. My projects range from educational apps
+      and games to AI assistants, wallpaper applications and
+      communication platforms.
+    </p>
+
+    <br>
+
+    <p class="about">
+      My long-term goal is to become a strong
+      <span class="highlight">AI/ML and software engineer</span>
+      and eventually work on advanced AI and robotics systems.
+    </p>
+  </section>
+
+
+  <!-- EDUCATION -->
+  <section>
+    <h2>Education</h2>
+
+    <div class="card">
+      <h3>Secondary Education</h3>
+      <p>
+        Completed Madhyamik examination with a score of
+        <span class="highlight">550 / 700</span>.
+      </p>
+    </div>
+
+    <br>
+
+    <div class="card">
+      <h3>Future Education</h3>
+      <p>
+        Interested in Science, Computer Science, Artificial Intelligence
+        and Machine Learning.
+      </p>
+
+      <div class="tags">
+        <span class="tag">WBCHSE</span>
+        <span class="tag">WBJEE</span>
+        <span class="tag">B.Tech</span>
+        <span class="tag">CSE</span>
+        <span class="tag">AI & ML</span>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2>Technology & Skills</h2>
+
+    <div class="grid">
+
+      <div class="card">
+        <h3>Programming</h3>
+        <p>
+          Learning and experimenting with Python, C, JavaScript,
+          TypeScript and Android development.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Web Development</h3>
+        <p>
+          HTML, CSS, JavaScript, React, Vite, TypeScript and
+          modern web application development.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Android</h3>
+        <p>
+          Interested in converting web applications into Android apps,
+          native Android development and app publishing.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>AI / Machine Learning</h3>
+        <p>
+          Interested in NumPy, mathematics, machine learning,
+          deep learning, Generative AI and AI agents.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Robotics</h3>
+        <p>
+          Interested in ESP32, Arduino, sensors, robotics,
+          companion robots and AI-powered robotic systems.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Tools</h3>
+        <p>
+          VS Code, Android Studio, Flutter, GitHub, Replit,
+          Termux and other development tools.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="grid">
+
+      <div class="card">
+        <div class="project-icon">🧪</div>
+        <h3>Periodic Table App</h3>
+        <p>
+          An educational chemistry application containing the periodic
+          table and detailed information about chemical elements,
+          including properties, compounds, reactions and structures.
+        </p>
+
+        <div class="tags">
+          <span class="tag">Education</span>
+          <span class="tag">Chemistry</span>
+          <span class="tag">AI</span>
+          <span class="tag">Android</span>
+        </div>
+      </div>
+
+
+      <div class="card">
+        <div class="project-icon">🤖</div>
+        <h3>Omega / Jarvis AI</h3>
+        <p>
+          An experimental AI assistant project using Python,
+          Flask, Socket.IO and AI APIs. The project explores
+          conversational AI, voice interaction and intelligent
+          assistant features.
+        </p>
+
+        <div class="tags">
+          <span class="tag">Python</span>
+          <span class="tag">Flask</span>
+          <span class="tag">AI</span>
+          <span class="tag">Voice</span>
+        </div>
+      </div>
+
+
+      <div class="card">
+        <div class="project-icon">🎮</div>
+        <h3>Ludo Hut</h3>
+        <p>
+          A Ludo game project designed for multiple players,
+          including pass-and-play multiplayer gameplay,
+          dice mechanics, animations and Android integration.
+        </p>
+
+        <div class="tags">
+          <span class="tag">Game</span>
+          <span class="tag">Android</span>
+          <span class="tag">Multiplayer</span>
+        </div>
+      </div>
+
+
+      <div class="card">
+        <div class="project-icon">🖼️</div>
+        <h3>Wallify</h3>
+        <p>
+          A wallpaper application concept focused on high-quality
+          wallpapers, including 4K and anime-style collections,
+          with Android monetization features.
+        </p>
+
+        <div class="tags">
+          <span class="tag">Wallpaper</span>
+          <span class="tag">4K</span>
+          <span class="tag">Anime</span>
+          <span class="tag">AdMob</span>
+        </div>
+      </div>
+
+
+      <div class="card">
+        <div class="project-icon">💬</div>
+        <h3>Chat Application</h3>
+        <p>
+          A mobile-first messaging application concept with
+          phone authentication, private chats, groups,
+          real-time messaging, file sharing and notifications.
+        </p>
+
+        <div class="tags">
+          <span class="tag">Messaging</span>
+          <span class="tag">Realtime</span>
+          <span class="tag">Firebase</span>
+          <span class="tag">WebSocket</span>
+        </div>
+      </div>
+
+
+      <div class="card">
+        <div class="project-icon">🛍️</div>
+        <h3>Saree Marketplace</h3>
+        <p>
+          A marketplace concept for a small saree business,
+          with separate customer and owner/admin interfaces.
+        </p>
+
+        <div class="tags">
+          <span class="tag">E-commerce</span>
+          <span class="tag">Marketplace</span>
+          <span class="tag">Admin</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- AI JOURNEY -->
+  <section id="ai">
+    <h2>My AI Learning Journey</h2>
+
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <h3>01 — Programming</h3>
+        <p>
+          Build strong fundamentals in C and Python.
+        </p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>02 — Python & NumPy</h3>
+        <p>
+          Learn numerical computing, arrays and data manipulation.
+        </p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>03 — AI Mathematics</h3>
+        <p>
+          Study linear algebra, vectors, dot products,
+          probability and statistics.
+        </p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>04 — Machine Learning</h3>
+        <p>
+          Learn data preprocessing, training, testing,
+          regression, classification and model evaluation.
+        </p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>05 — Deep Learning</h3>
+        <p>
+          Explore neural networks, computer vision
+          and advanced learning architectures.
+        </p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>06 — Generative AI</h3>
+        <p>
+          Learn LLMs, AI agents, RAG, prompt engineering
+          and intelligent application development.
+        </p>
+      </div>
+
+      <div class="timeline-item">
+        <h3>07 — Advanced AI + Robotics</h3>
+        <p>
+          Combine AI with robotics, computer vision,
+          sensors and intelligent autonomous systems.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- GOALS -->
+  <section id="goals">
+    <h2>My Future Goals</h2>
+
+    <div class="goal-box">
+      <ul>
+        <li>Become a skilled software engineer.</li>
+        <li>Build strong foundations in AI and Machine Learning.</li>
+        <li>Study advanced Deep Learning and Generative AI.</li>
+        <li>Develop useful AI-powered applications.</li>
+        <li>Explore computer vision and robotics.</li>
+        <li>Build advanced AI assistant systems.</li>
+        <li>Work toward AI + robotics technology.</li>
+        <li>Study engineering and pursue advanced technical education.</li>
+      </ul>
+    </div>
+  </section>
+
+
+  <!-- INTERESTS -->
+  <section>
+    <h2>Interests</h2>
+
+    <div class="tags">
+      <span class="tag">Artificial Intelligence</span>
+      <span class="tag">Machine Learning</span>
+      <span class="tag">Generative AI</span>
+      <span class="tag">Robotics</span>
+      <span class="tag">Programming</span>
+      <span class="tag">Android Development</span>
+      <span class="tag">Web Development</span>
+      <span class="tag">App Development</span>
+      <span class="tag">Game Development</span>
+      <span class="tag">Computer Vision</span>
+      <span class="tag">AI Agents</span>
+      <span class="tag">Technology</span>
+    </div>
+  </section>
+
+
+  <!-- LOCATION -->
+  <section>
+    <h2>Location</h2>
+
+    <div class="card">
+      <h3>India 🇮🇳</h3>
+      <p>
+        Lakshmikantapur, Kolkata, West Bengal, India
+      </p>
+
+      <!--
+        PIN CODE: 743366
+        Keep this private if this page is publicly accessible.
+      -->
+    </div>
+  </section>
+
+
+  <!-- CONTACT -->
+  <section>
+    <div class="contact">
+      <h2>About This Profile</h2>
+
+      <p>
+        This page represents my journey as a student,
+        developer and technology enthusiast.
+      </p>
+
+      <br>
+
+      <p>
+        <span class="highlight">Build. Learn. Experiment. Innovate.</span>
+      </p>
+    </div>
+  </section>
+
+</main>
+
+
+<footer>
+  © 2026 Avirup Purkait • Student & Technology Enthusiast
+</footer>
+
+</body>
+</html>
